@@ -8,7 +8,7 @@ def ZK_equality(G,H):
     r1 = Secret(utils.get_random_num(bits=128)).value
     r2 = Secret(utils.get_random_num(bits=128)).value
     
-    m = 1
+    m = Secret()
     
     print(G)
     print(H)
