@@ -11,7 +11,7 @@ def ZK_equality(G,H):
     print(H)
     
     
-    r1 = Secrete()
+    r1 = Secret()
     r2 = Secret()
     
     m = Secret()
