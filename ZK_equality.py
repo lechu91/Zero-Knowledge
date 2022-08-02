@@ -9,12 +9,12 @@ def ZK_equality(G,H):
     r1 = Secret(utils.get_random_num(bits=128))
     r2 = Secret(utils.get_random_num(bits=128))
     
-    m = 0.5
+    m = 1
         
-    C1 = r1*G
-    C2 = r1*H + m*G
-    D1 = r2*G
-    D2 = r2*H + m*G
+    C1 = r1 * G
+    C2 = r1 * H + m * G
+    D1 = r2 * G
+    D2 = r2 * H + m * G
     
     #Generate a NIZK proving equality of the plaintexts
     
