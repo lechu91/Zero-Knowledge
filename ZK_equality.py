@@ -10,13 +10,18 @@ def ZK_equality(G,H):
     
     m = Secret()
     
-    print(G)
-    print(H)
-    
+    print(r1)
+    print(r2)
+        
     C1 = r1 * G
     C2 = r1 * H + m * G
     D1 = r2 * G
     D2 = r2 * H + m * G
+    
+    print(C1)
+    print(C2)
+    print(D1)
+    print(D2)
     
     #Generate a NIZK proving equality of the plaintexts
     
