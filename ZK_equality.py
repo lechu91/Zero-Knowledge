@@ -11,8 +11,10 @@ def ZK_equality(G,H):
     print(H)
     
     
-    r1 = Secret(utils.get_random_num(bits=128))
-    r2 = Secret(utils.get_random_num(bits=128))
+    r1 = random.randrange(2,99999999)
+    r2 = random.randrange(2,99999999)
+    
+#     Secret(utils.get_random_num(bits=128))
     
     m = Secret()
     print(m)
