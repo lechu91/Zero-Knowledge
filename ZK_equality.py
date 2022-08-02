@@ -8,15 +8,15 @@ def ZK_equality(G,H):
     r1 = Secret(utils.get_random_num(bits=128))
     r2 = Secret(utils.get_random_num(bits=128))
     
-    m = 1
+    m = Secret()
     
     print(r1)
     print(r2)
         
-    C1 = r1 * G
-    C2 = r1 * H + m * G
-    D1 = r2 * G
-    D2 = r2 * H + m * G
+    C1 = r1.value * G
+    C2 = r1.value * H + m * G
+    D1 = r2.value * G
+    D2 = r2.value * H + m * G
     
     print(C1)
     print(C2)
