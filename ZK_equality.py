@@ -10,8 +10,8 @@ def ZK_equality(G,H):
     print(H)
     print(type(H))
     
-    r1 = Secret(utils.get_random_num(bits=128))
-    r2 = Secret(utils.get_random_num(bits=128))
+    r1 = Secret()
+    r2 = Secret()
     
     m = Secret()
     print(m)
