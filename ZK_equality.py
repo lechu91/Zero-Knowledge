@@ -1,5 +1,6 @@
 from zksk import Secret, DLRep
 from zksk import utils
+import random
 
 def ZK_equality(G,H):
 
