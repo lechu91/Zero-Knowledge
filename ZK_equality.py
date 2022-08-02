@@ -1,6 +1,5 @@
 from zksk import Secret, DLRep
 from zksk import utils
-import random
 
 def ZK_equality(G,H):
 
@@ -12,14 +11,13 @@ def ZK_equality(G,H):
     print(H)
     
     
-    r1 = random.randrange(2,99999999)
-    r2 = random.randrange(2,99999999)
-    
-#     Secret(utils.get_random_num(bits=128))
+    r1 = Secrete()
+    r2 = Secret()
     
     m = Secret()
     print(m)
     
+    print(type(r1))
     print(r1)
     print(r2)
         
