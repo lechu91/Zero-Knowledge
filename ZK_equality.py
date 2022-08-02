@@ -9,6 +9,7 @@ def ZK_equality(G,H):
     r2 = Secret(utils.get_random_num(bits=128))
     
     m = Secret()
+    print(m)
     
     print(r1)
     print(r2)
