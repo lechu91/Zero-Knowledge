@@ -1,18 +1,13 @@
 from zksk import Secret, DLRep
 from zksk import utils
+import random
 
 def ZK_equality(G,H):
 
     #Generate two El-Gamal ciphertexts (C1,C2) and (D1,D2)
-    
-    print(type(G))
-    print(G)
-    print(type(H))
-    print(H)
-    
-    
-    r1 = Secret()
-    r2 = Secret()
+  
+    r1 = random.randrange(0, 1000000)
+    r2 = random.randrange(0, 1000000)
     
     m = Secret()
     print(m)
